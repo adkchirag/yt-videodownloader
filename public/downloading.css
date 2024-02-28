@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.full-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 243, 87);
+}
+
+.heading{
+    color: mediumseagreen;
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}
+
+.link-paste{
+    width: 30rem;
+    height: 2.75rem;
+    padding: 0 10px;
+    font-size: 15px;
+    border-radius: 0;
+    border: 3px solid mediumseagreen;
+}
+.link-paste:focus{
+    outline: none;
+}
+
+.download-btn{
+    height: 2.75rem;
+    font-size: 15px;
+    border-radius: 0;
+    text-align: center;
+    color: white;
+    border: 3px solid mediumseagreen;
+    background-color: mediumseagreen;
+    cursor: pointer;
+    font-weight: bold;
+}
+.download-btn:hover{
+    background-color: rgb(67, 209, 131);
+    border-color: rgb(67, 209, 131);
+}
+.download-btn:active{
+    background-color: rgb(14, 202, 99);
+    border-color: rgb(14, 202, 99);
+}
+
+.foldericon{
+    width: 25px;
+    height: 25px;
+}
+
+@media(max-width: 900px) and (min-width: 600px){
+    .heading{
+        font-size: 3.5rem;
+    }
+}
+@media(max-width: 600px){
+    .heading{
+        font-size: 3rem;
+    }
+}
